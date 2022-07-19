@@ -1,0 +1,66 @@
+body{
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
+    background-color: rgb(70, 174, 148);
+}
+.main{
+    position: absolute;
+    width: 300px;
+    padding: 15px;
+    background-color: #ededed;
+    border-radius: 10px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+}
+h1{
+    text-align: center;
+    color: rgb(26, 26, 26);
+    margin: 10px;
+}
+input[type=text]{
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 8px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+.search{
+    position: relative;
+}
+.search span{
+    position: absolute;
+    top: -10px;
+    right: -4px;
+    background-color: rgb(57, 231, 124);
+    padding: 20px;
+    display: flex;
+    border-radius: 100%;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    background: #fff;
+    margin: 5px;
+    padding: 10px;
+    border-right: 4px solid rgb(57, 231, 124);
+    border-left: 4px solid  rgb(57, 231, 124);
+}
+ul li i{
+    padding: 4px;
+    float: right;
+    cursor: pointer;
+}
+p{
+    color: red;
+    text-align: center;
+}
+.fa-trash-alt:hover{
+    color: red;
+    transform: rotateZ(10deg);
+}
