@@ -31,7 +31,7 @@
             $scope.addItem = function(){
                 $scope.errortext = "";
                 if (!$scope.addMe) {return;}
-                if ($scope.products.indexOf($scope.addMe) == -1 ){  //item not in list //unable to find index of item
+                if ($scope.products.indexOf($scope.addMe) == -1 ){
                     $scope.products.push($scope.addMe);
                     $scope.addMe = "";
                 }
